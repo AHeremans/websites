@@ -1,0 +1,40 @@
+body {
+    background-color: lightgrey;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: solid darkred 5px;
+    border-radius: 5px;
+    background-color: darkred;
+}
+
+.Sub-Div {
+    display: flex;
+}
+
+.Sub-Header {
+    color: black;
+    border: solid lightgreen 5px;
+    border-radius: 5px;
+    background-color: lightgreen;
+}
+
+.stupid-green-block {
+    border: solid green 5px;
+}
+
+.the-rest {
+    align-self: flex-end;
+    color: black;
+    border: solid lightgreen 5px;
+    border-radius: 5px;
+    background-color: lightgreen;
+}
