@@ -1,0 +1,7 @@
+Welke doctype wordt hier gebruikt? --html 
+Welke title wordt hier gebruikt? --portFocus vzw - Zwemlessen - Sportkampen - Voetbal
+Welke charset wordt hier gebruikt? --UTF-8
+Valideer de webpagina. Is deze pagina valide? --computer says no
+Zoek op het internet wat dit stukje code betekent.
+	--A favicon is a small image displayed next to the page title in the browser tab.
+Waar zie je het effect van deze lijn code in Chrome? --het icoontje natuurlijk?
