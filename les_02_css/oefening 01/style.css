@@ -11,12 +11,14 @@ body {
     background-color: darkred;
 }
 
-.Sub-Div {
-    display: flex;
+.Sub-Div {}
+
+.backline {
     color: black;
     border: solid lightgreen 5px;
     border-radius: 5px;
     background-color: lightgreen;
+
 }
 
 .stupid-green-block {
