@@ -1,9 +1,18 @@
+* {
+    display: flex;
+}
+
+#intro,
+b {
+    display: inline;
+}
+
 body {
+    flex-direction: column;
     background-color: lightgrey;
 }
 
 .Header {
-    display: flex;
     justify-content: center;
     color: white;
     border: solid darkred 5px;
@@ -11,18 +20,21 @@ body {
     background-color: darkred;
 }
 
-.Sub-Div {}
+span {
+    border: solid #DEFFFF 5px;
+    background-color: #DEFFFF;
+}
 
-.backline {
+.Sub-Header {
     color: black;
-    border: solid lightgreen 5px;
-    border-radius: 5px;
-    background-color: lightgreen;
-
 }
 
 .stupid-green-block {
-    border: solid green 5px;
-    border-radius: 5px;
-    background-color: green;
+    border: solid #3A96F2 5px;
+    background-color: #3A96F2;
+    margin: -4.5px;
+}
+
+.end+* {
+    display: none;
 }
