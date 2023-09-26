@@ -1,0 +1,47 @@
+:root {
+    --blue: #00647d;
+    --orange: #fa6432;
+}
+
+body {
+    color: var(--blue);
+    font-size: 14;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {}
+
+#top-logo {
+    height: auto;
+    width: 200px;
+}
+
+#bottom-logo {
+    height: auto;
+    width: 200px;
+    margin: 15px;
+}
+
+hr {
+    border: 1px solid var(--blue);
+}
+
+h1 {
+    color: var(--orange);
+    font-size: 2em;
+    margin: none;
+    padding: none;
+}
+
+p,
+a {
+    margin: none;
+    padding: 15px;
+}
+
+div {
+    background-color: var(--blue);
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
