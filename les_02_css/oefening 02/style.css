@@ -35,5 +35,6 @@ strong {
 }
 
 #mainText *:hover {
-    background-color: black;
+    background-color: orange;
+    /*Supposed to be yellow as by the client's specifications. Can't see the difference between white and yellow on my screen though.*/
 }
