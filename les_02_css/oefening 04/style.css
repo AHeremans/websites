@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#red {
+    color: #600;
+    background-color: #e6a2a2;
+}
+
+#blue {
+    color: #004080;
+    background-color: #a2c4e6;
+}
+
+#green {
+    color: #00663d;
+    background-color: #a2e6c4;
+}

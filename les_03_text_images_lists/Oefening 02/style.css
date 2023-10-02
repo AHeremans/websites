@@ -1,5 +1,5 @@
 :root {
-    --blue: #00647d;
+    --blue: #000a1e;
     --orange: #fa6432;
 }
 
@@ -8,8 +8,8 @@ body {
 }
 
 h1 {
-    margin: none;
-    padding: none;
+    margin: 0;
+    padding: 0;
     color: var(--orange);
     font-size: 2em;
 }
@@ -17,3 +17,5 @@ h1 {
 hr {
     border: 1px solid var(--blue)
 }
+
+a:hover {}

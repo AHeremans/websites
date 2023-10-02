@@ -1,5 +1,5 @@
 :root {
-    --blue: #00647d;
+    --blue: #000a1e;
     --orange: #fa6432;
 }
 
@@ -29,19 +29,18 @@ hr {
 h1 {
     color: var(--orange);
     font-size: 2em;
-    margin: none;
-    padding: none;
+    margin: 0;
+    padding: 0;
 }
 
 p,
 a {
-    margin: none;
+    margin: 0;
     padding: 15px;
 }
 
 div {
     background-color: var(--blue);
     margin-top: 15px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
