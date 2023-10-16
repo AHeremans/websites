@@ -28,7 +28,6 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: pink;
 }
 
 /* about section image css */
@@ -60,8 +59,16 @@
 	border: 1px solid #008000;
 }
 
+/* portfolio cards */
+.card-img-top {
+	height: 12em;
+}
+
 /* display background color black on navbar scroll */
-.navbarScroll.navbarDark {
+.navbar
+
+/*.navbarScroll.navbarDark*/
+	{
 	background-color: black;
 }
 
@@ -102,4 +109,4 @@
 	padding-bottom: 4rem;
 }
 
--
+/**/
