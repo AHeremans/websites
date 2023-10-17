@@ -1,57 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html>
+
+<head>
     <title>Portfolio</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Style -->
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Make some room. -->
 
     <!-- Nav bar locked tot he top of the screen. -->
-    <nav class="navbar">
-      <div>
-        <a href="#">Thomas</a>
-        <button
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div>
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+    <nav class="navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">T-Tech</a>
+            <div class="navbar-list">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <!-- Home section. -->
-    <section id="hero"></section>
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="hero_title">Hi, it's me Thomas</h2>
+                    <p class="hero_desc">I am an aspiring freelancer from Belgium</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- About section. -->
-    <section id="about"></section>
+    <section id="about">
+        <div class="container">
+            <h1 class="text-center">About Me</h1>
+            <div>
+                <img src="images/about.jpg" class="imageAboutPage" alt="">
+            </div>
+
+            <div style="float: left;">
+                <p>
+                    As a moon bear, I roam the Asian forests, adorned with a distinctive crescent-shaped patch on my
+                    chest, earning me my name. My adaptability allows me to thrive in a range of habitats, from
+                    dense rainforests to lofty meadows. Yet, my world is under siege, as human activities pose
+                    threats like habitat loss, illegal hunting, and bear bile farming.
+                </p>
+                <div>
+                    <div>
+                        <ul>
+                            <li>Name: Thomas Ward</li>
+                            <li>Age: 23</li>
+                            <li>Occupation: Moon Bear</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <p>
+                        As a moon bear freelancing in the heart of the Asian wilderness, my solitary and adaptive
+                        nature has become my greatest asset. My shaggy black fur provides me with camouflage as I
+                        navigate the intricacies of the forest, and the white crescent on my chest serves as my
+                        unique calling card. In this vibrant ecosystem, I am a jack of all trades, contributing to
+                        the balance of nature as I forage for a diverse range of food, from succulent fruits to
+                        small prey, each day presenting a new opportunity.
+                        <br>
+                        My freelance journey, however, is not without its challenges. The encroachment of human
+                        activities threatens the tranquility of my woodland office. I must constantly adapt to the
+                        ever-changing landscape, honing my skills to survive in the face of habitat loss, human
+                        intrusion, and the dangers of the wild. Despite these trials, I am a symbol of resilience, a
+                        freelancer in the truest sense, living a life that blends harmony with nature and the
+                        struggle for survival in a world that is both awe-inspiring and precarious.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Services section. -->
     <section id="services"></section>
@@ -68,5 +111,6 @@
     <!-- JavaScript comes here. -->
     <script src="script/script.js"></script>
     <div id="end"></div>
-  </body>
+</body>
+
 </html>
