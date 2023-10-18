@@ -1,0 +1,93 @@
+/* SERVICES */
+
+.card {
+    --card-spacer-y: 1rem;
+    --card-spacer-x: 1rem;
+    --card-title-spacer-y: 0.5rem;
+    --card-border-width: 1px;
+    --card-border-color: var(--border-color-translucent);
+    --card-border-radius: 0.375rem;
+    --card-box-shadow: ;
+    --card-inner-border-radius: calc(0.375rem - 1px);
+    --card-cap-padding-y: 0.5rem;
+    --card-cap-padding-x: 1rem;
+    --card-cap-bg: rgba(0, 0, 0, 0.03);
+    --card-cap-color: ;
+    --card-height: ;
+    --card-color: ;
+    --card-bg: #fff;
+    --card-img-overlay-padding: 1rem;
+    --card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--card-height);
+    word-wrap: break-word;
+    background-color: var(--card-bg);
+    background-clip: border-box;
+    border: var(--card-border-width) solid var(--card-border-color);
+    border-radius: var(--card-border-radius);
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+}
+
+.card-title {
+    margin-bottom: var(--card-title-spacer-y);
+    text-align: center;
+    margin-top: 1rem !important;
+}
+
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--card-spacer-y) var(--card-spacer-x);
+    color: var(--card-color);
+}
+
+.card-text {
+    margin-top: 1rem !important;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+}
+
+.fa,
+.fab,
+.fad,
+.fal,
+.far,
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.fa,
+.far,
+.fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.fa,
+.fas {
+    font-weight: 900;
+}
+
+#services {
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 3rem;
+}

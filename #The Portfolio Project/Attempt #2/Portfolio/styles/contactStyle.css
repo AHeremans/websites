@@ -1,0 +1,76 @@
+/* CONTACT */
+
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+    margin-top: 1.5rem !important;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-twitch:hover {
+    color: #008000;
+}
+
+.fab {
+    color: #000000;
+}
+
+iframe {
+    border: 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .375rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control-lg {
+    min-height: calc(1.5em + 1rem + 2px);
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .5rem;
+}
+
+.form-control-mt {
+    margin-top: 1rem !important;
+}
+
+#contact {
+    background-color: rgb(245, 245, 245);
+}
