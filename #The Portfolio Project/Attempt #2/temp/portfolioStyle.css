@@ -4,12 +4,13 @@
     height: 12em;
 }
 
-
+.card-img,
+.card-img-bottom,
 .card-img-top {
     width: 100%;
 }
 
-
+.card-img,
 .card-img-top {
     border-top-left-radius: var(--card-inner-border-radius);
     border-top-right-radius: var(--card-inner-border-radius);

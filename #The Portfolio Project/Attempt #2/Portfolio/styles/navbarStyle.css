@@ -3,46 +3,24 @@
 .navbar {
     --navbar-padding-x: 0;
     --navbar-padding-y: 0.5rem;
-    /* --navbar-color: rgba(0, 0, 0, 0.55); */
     --background-color: rgb(0, 0, 0);
-    /* --navbar-hover-color: rgba(0, 0, 0, 0.7); */
-    /* --navbar-disabled-color: rgba(0, 0, 0, 0.3); */
-    /* --navbar-active-color: rgba(0, 0, 0, 0.9); */
-    /* --navbar-brand-padding-y: 0.3125rem; */
-    /* --navbar-brand-margin-end: 1rem; */
     --navbar-brand-font-size: 1.25rem;
-    /* --navbar-brand-color: rgba(0, 0, 0, 0.9); */
-    /* --navbar-brand-hover-color: rgba(0, 0, 0, 0.9); */
     --navbar-nav-link-padding-x: 0.5rem;
-    /* position: relative; */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
     padding: var(--navbar-padding-y) var(--navbar-padding-x);
     background-color: var(--background-color);
 }
 
 .navbar-brand {
-    /* padding-top: var(--navbar-brand-padding-y); */
-    /* padding-bottom: var(--navbar-brand-padding-y); */
-    /* margin-right: var(--navbar-brand-margin-end); */
     font-size: var(--navbar-brand-font-size);
     color: pink;
     text-decoration: none;
-    /* white-space: nowrap; */
 }
 
 .navbar-nav {
     --nav-link-padding-x: 0;
     --nav-link-padding-y: 0.5rem;
-    /* --nav-link-font-weight: ; */
     --nav-link-color: pink;
-    /* --nav-link-hover-color: var(--navbar-hover-color); */
-    /* --nav-link-disabled-color: var(--navbar-disabled-color); */
     display: flex;
-    /* flex-direction: column; */
-    /* padding-left: 0; */
     margin-bottom: 0;
     list-style: none;
     margin-left: auto !important;
@@ -51,11 +29,8 @@
 .nav-link {
     display: block;
     padding: var(--nav-link-padding-y) var(--nav-link-padding-x);
-    /* font-size: var(--nav-link-font-size); */
-    /* font-weight: var(--nav-link-font-weight); */
     color: var(--nav-link-color);
     text-decoration: none;
-    /* transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out; */
 }
 
 .navbar-list {

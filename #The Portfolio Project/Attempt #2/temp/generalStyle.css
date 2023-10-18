@@ -97,10 +97,16 @@ body {
 
 .h1,
 .h2,
+.h3,
 .h4,
+.h5,
+.h6,
 h1,
 h2,
-h4 {
+h3,
+h4,
+h5,
+h6 {
     margin-top: 0;
     margin-bottom: .5rem;
     font-weight: 500;
@@ -127,19 +133,25 @@ a {
     text-decoration: underline;
 }
 
-
+ol,
 ul {
     padding-left: 2rem;
 }
 
-
+dl,
+ol,
 ul {
     margin-top: 0;
     margin-bottom: 1rem;
 }
 
 .navbar>.container,
-.navbar>.container-fluid {
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
     display: flex;
     flex-wrap: inherit;
     align-items: center;
@@ -147,7 +159,12 @@ ul {
 }
 
 .container,
-.container-fluid {
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
     --gutter-x: 1.5rem;
     --gutter-y: 0;
     width: 100%;
@@ -161,6 +178,7 @@ ul {
     text-align: center !important;
 }
 
-img {
+img,
+svg {
     vertical-align: middle;
 }

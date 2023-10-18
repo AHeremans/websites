@@ -41,6 +41,12 @@
     margin-top: 1rem !important;
 }
 
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
 .card-body {
     flex: 1 1 auto;
     padding: var(--card-spacer-y) var(--card-spacer-x);
@@ -55,8 +61,12 @@
     margin-bottom: 0;
 }
 
-
-.fab {
+.fa,
+.fab,
+.fad,
+.fal,
+.far,
+.fas {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
@@ -64,6 +74,17 @@
     font-variant: normal;
     text-rendering: auto;
     line-height: 1;
+}
+
+.fa,
+.far,
+.fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.fa,
+.fas {
+    font-weight: 900;
 }
 
 #services {

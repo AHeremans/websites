@@ -36,7 +36,7 @@
 
 @media (min-width: 992px) {
 
-
+    
     .map-box,
     .form-box {
         flex: 0 0 auto;
@@ -46,7 +46,7 @@
 
 @media (min-width: 992px) {
 
-
+    
     .intro-short {
         flex: 0 0 auto;
         width: 66.66666667%;
@@ -55,7 +55,7 @@
 
 @media (min-width: 768px) {
 
-
+    
     .intro-list {
         flex: 0 0 auto;
         width: 50%;
