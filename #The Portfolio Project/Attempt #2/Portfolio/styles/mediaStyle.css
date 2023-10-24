@@ -99,8 +99,8 @@
 
 @media (min-width: 992px) {
     .navbar .navbar-nav .nav-link {
-        padding-right: var(--navbar-nav-link-padding-x);
-        padding-left: var(--navbar-nav-link-padding-x);
+        padding-right: 0.5rem;
+        padding-left: 0.5rem
     }
 }
 
