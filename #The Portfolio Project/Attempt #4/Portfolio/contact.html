@@ -4,16 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title/Favicon -->
     <title>contact</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- Navigation Bar. -->
-    <nav class="fixed-top" style="background-color: black;">
-        <div class="navbar-nav" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-            <a style="margin-top: 1rem; margin-left: 1rem;">T-Tech</a>
-            <ul style="display: flex; flex-wrap: wrap; list-style-type: none; margin-right: 1rem;">
+    <nav class="fixed-top">
+        <div class="navbar-nav">
+            <a class="navbar-brand">T-Tech</a>
+            <ul class="navbar-list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
@@ -24,11 +27,68 @@
     </nav>
 
     <!-- Contact section. -->
-    <section id="contact" style="background-color: #9eadb0;">
-        <h1 style="text-align: center;">Contact Me</h1>
+    <section id="contact">
+        <div class="container">
+            <h1 class="text-center">Contact Me</h1>
+            <!-- map box -->
+            <div class="row" style="margin-top: 1.5rem;">
+                <div class="map-box">
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe
+                                src="https://www.google.com/maps/embed/v1/place?q=Belgium,+WI,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com"
+                            id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>
+                            #embedmap-canvas img {
+                                max-width: none !important;
+                                background: none !important;
+                                font-size: inherit;
+                                font-weight: inherit;
+                            }
+                        </style>
+                    </div>
+                </div>
 
+                <div class="form-box">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" id="name" name="name" placeholder="Name">
+                        <input type="email" class="form-control form-control-mt" id="email" name="email" placeholder="Email">
+                        <input type="text" class="form-control form-control-mt" placeholder="Subject">
+                        <div style="margin-top: 1rem;">
+                            <textarea class="form-control" rows="5" id="comment" name="text"
+                                placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-green" style="margin-top: 1rem;">Contact Me</button>
 
+                </div>
+
+            </div>
+        </div>
     </section>
+
+    <!-- Footer section, here go the social links. -->
+    <footer>
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
