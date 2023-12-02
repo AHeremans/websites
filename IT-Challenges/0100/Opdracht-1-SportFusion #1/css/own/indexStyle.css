@@ -1,0 +1,56 @@
+.homepage {
+    height: 100%;
+    margin-left: 2rem;
+    text-align: start;
+    position: absolute;
+}
+
+.bgimage {
+    height: 100vh;
+    background-size: cover;
+    background-image: url(../../images/heroImage.jpg);
+    position: relative;
+}
+
+.hero_title {
+	font-size: 4.5rem;
+}
+
+.hero_desc {
+	font-size: 2rem;
+}
+
+.hero-text {
+	text-align: start;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.ahem {
+    height: 42vh;
+    width: 64vh;
+}
+
+/* Carousel */
+
+ .bg-img-1 {
+    background-image: url(../../images/portfolioImages/portfolioImage1.jpg);
+ }
+
+ .bg-img-2 {
+    background-image: url(../../images/portfolioImages/portfolioImage2.jpg);
+ }
+
+ .bg-img-3 {
+    background-image: url(../../images/portfolioImages/portfolioImage3.jpg);
+ }
+
+ .carousel-image {
+    width: 100%;
+    height: 42vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
